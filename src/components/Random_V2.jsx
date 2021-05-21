@@ -2,7 +2,7 @@ import React from 'react';
 
 import useGif from '../useGif';
 
-const Tag = () => {
+const Random = () => {
     const {gif, fetchGif} = useGif();
 
     return (
@@ -14,4 +14,4 @@ const Tag = () => {
     );
 }
 
-export default Tag;
+export default Random;
